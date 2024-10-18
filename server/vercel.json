@@ -7,7 +7,7 @@
     }
   ],
   "functions": {
-    "**": {
+    "server.js": {
       "maxDuration": 30
     }
   }
