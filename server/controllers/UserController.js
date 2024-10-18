@@ -16,6 +16,8 @@ const clerkWebhooks = async (req,res) => {
             "svix-signature":req.headers["svix-signature"]
         })
 
+        res.json({});
+
         const {data, type} = req.body
 
         switch (type) {
